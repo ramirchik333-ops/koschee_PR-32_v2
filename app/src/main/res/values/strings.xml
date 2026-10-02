@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">prakt1</string>
+    <string name ="a">войти</string>
+    <string name="b">WorldCinema</string>
+    <string name="c">E-mail</string>
+    <string name="d">пароль</string>
+    <string name="e">регистрация</string>
+    <string name ="g">профиль</string>
+    <string name="po">Captain Marvel</string>
+    <string name ="sa">главное</string>
+    <string name="sas">подборка</string>
+    <string name="sad">коллекции</string>
+</resources>

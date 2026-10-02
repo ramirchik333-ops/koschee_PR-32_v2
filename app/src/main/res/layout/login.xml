@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/a">
+
+<ImageView
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/popcorn"
+    android:layout_marginBottom="16dp"/>
+
+<TextView
+    android:text="@string/b"
+    android:textColor="@color/b"
+    android:textSize="32sp"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="48dp"/>
+
+<EditText
+    android:id="@+id/etLogin"
+    android:hint="@string/c"
+    android:textColor="@color/c"
+    android:textColorHint="@color/d"
+    android:backgroundTint="@color/e"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"/>
+
+<EditText
+    android:id="@+id/etPass"
+    android:hint="@string/c"
+    android:inputType="textPassword"
+    android:textColor="@color/c"
+    android:textColorHint="@color/d"
+    android:backgroundTint="@color/e"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"/>
+
+<Button
+    android:id="@+id/btnLogin"
+    android:text="@string/a"
+    android:backgroundTint="@color/f"
+    android:textColor="@color/c"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"/>
+
+<Button
+    android:id="@+id/btnReg"
+    android:text="@string/e"
+    android:backgroundTint="@color/h"
+    android:textColor="@color/f"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    </LinearLayout>
